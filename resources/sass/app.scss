@@ -1,0 +1,36 @@
+@import "./background-color.scss";
+@import "./button.scss";
+@import "./color.scss";
+@import "./font.scss";
+
+:root {
+  --height: 6rem;
+  --padding-inline: 1rem;
+}
+
+::selection {
+  background-color: var(--maroon, maroon);
+  color: var(--light, #FFFFFF);
+}
+
+@media(min-width: 768px) {
+  /*  */
+}
+
+@media(min-width: 1024px) {
+  :root {
+    --padding-inline: 5rem;
+  }
+}
+
+@media(min-width: 1200px) {
+  /*  */
+}
+
+@media (min-width: 1536px) {
+  /*  */
+}
+
+@media (min-width: 1920px) {
+  /*  */
+}

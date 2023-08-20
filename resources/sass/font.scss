@@ -1,0 +1,65 @@
+:root {
+  --monterey: 'MontereyFLF', sans-serif;
+  --work-sans: 'Work Sans', sans-serif;
+}
+
+.MontereyFLF {
+  font-family: var(--monterey, sans-serif);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Work-Sans {
+  font-family: var(--work-sans, sans-serif);
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.first-letter::first-letter {
+  font-size: 1.5rem;
+}
+
+.title {
+  border-bottom: 1px solid var(--grey, grey);
+}
+
+a {
+  color: var(--red);
+  font-family: var(--work-sans, sans-serif);
+  &:hover {
+    color: var(--maroon);
+    text-decoration: underline;
+  }
+}
+
+.black {
+  color: var(--black, black);
+}
+
+.dark {
+  color: var(--dark, black);
+}
+
+.grey {
+  color: var(--grey, grey);
+}
+
+.maroon {
+  color: var(--maroon, maroon);
+}
+
+.light {
+  color: var(--light, white);
+}
+
+.lightgrey {
+  color: var(--lightgrey, lightgrey);
+}
+
+.red {
+  color: var(--red, red);
+}
+
+.white {
+  color: var(--white, white);
+}

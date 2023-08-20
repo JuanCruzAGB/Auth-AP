@@ -1,0 +1,35 @@
+.bg-black {
+  background-color: var(--black, black);
+}
+
+.bg-dark {
+  background-color: var(--dark, black);
+}
+
+.bg-grey {
+  background-color: var(--grey, grey);
+}
+
+.bg-maroon {
+  background-color: var(--maroon, maroon);
+}
+
+.bg-light {
+  background-color: var(--light, white);
+}
+
+.bg-lightgrey {
+  background-color: var(--lightgrey, lightgrey);
+}
+
+.bg-red {
+  background-color: var(--red, red);
+}
+
+.bg-white {
+  background-color: var(--white, white);
+}
+
+.gradient {
+  background-image: var(--gradient);
+}
